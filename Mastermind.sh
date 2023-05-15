@@ -336,7 +336,6 @@ personalizada(){    #Permite personalizar valor por valor la dificultad
 
     echo "¿Quieres números repetidos?"
     read -p "0 -> NO | 1 -> SI: " repe
-    repe=${repe:-50}
     if [[ $(($repe)) -eq 1 ]] || [[ $(($repe)) -eq 0 ]]     # Uso valores de 0 y 1 para configurar el booleano de las repeticiones
         then
             echo "Valor aceptado"
